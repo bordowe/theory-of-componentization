@@ -1,5 +1,5 @@
 ---
-slug: /pl/
+slug: /
 ---
 
 # przetłumaczone na polski
