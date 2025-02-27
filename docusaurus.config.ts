@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic"
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: "TOC",
+    title: "ToC",
     tagline: "Theory of Componentization",
     favicon: "img/favicon.ico",
 
@@ -62,7 +62,7 @@ const config: Config = {
         // Replace with your project's social card
         image: "img/docusaurus-social-card.jpg",
         navbar: {
-            title: "TOC",
+            title: "ToC",
             logo: {
                 alt: "Bordowe Logo",
                 src: "img/logo.svg",
