@@ -1,5 +1,0 @@
----
-slug: /
----
-
-# Translated to polish

@@ -1,5 +1,0 @@
----
-slug: /
----
-
-# przetłumaczone na polski
