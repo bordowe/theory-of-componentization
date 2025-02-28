@@ -17,8 +17,8 @@ const config: Config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "bordowe", // Usually your GitHub org/user name.
+    projectName: "toc", // Usually your repo name.
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
@@ -44,12 +44,10 @@ const config: Config = {
             "classic",
             {
                 docs: {
-                    sidebarPath: "./sidebars.ts",
+                    sidebarPath: require.resolve("./sidebars.ts"),
                     routeBasePath: "/",
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    // editUrl:
-                    //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                    showLastUpdateTime: true,
+                    showLastUpdateAuthor: true,
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
@@ -59,6 +57,12 @@ const config: Config = {
     ],
 
     themeConfig: {
+        docs: {
+            sidebar: {
+                hideable: true,
+                autoCollapseCategories: true,
+            },
+        },
         // Replace with your project's social card
         image: "img/docusaurus-social-card.jpg",
         navbar: {
