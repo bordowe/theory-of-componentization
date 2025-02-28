@@ -81,7 +81,7 @@ const config: Config = {
         },
         footer: {
             style: "light",
-            copyright: `Copyright © ${new Date().getFullYear()} Bordowe. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} <a href="https://bordowe.pl">Bordowe</a>. Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
